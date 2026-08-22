@@ -1,0 +1,23 @@
+[project]
+name = "desafio-4-pln"
+version = "0.1.0"
+description = "Notebooks del Desafío 4 de Procesamiento de Lenguaje Natural"
+readme = "README.md"
+requires-python = ">=3.10,<3.13"
+dependencies = [
+    "matplotlib>=3.8,<3.11",
+    "nltk>=3.8,<4",
+    "numpy>=1.26,<3",
+    "pandas>=2.1,<3",
+    "tensorflow>=2.16,<2.20",
+    "torch>=2.2,<2.8",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=6.29,<7",
+    "jupyterlab>=4.2,<5",
+]
+
+[tool.uv]
+package = false
